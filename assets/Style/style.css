@@ -1,0 +1,170 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    text-shadow: none;
+    color: white !important;
+}
+/* navigation bar css started */
+nav {
+    position: fixed;
+    width: 100%;
+  border-bottom: 4px solid #3B9A8F;
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  justify-content: space-between;
+  padding: 0 25px;
+  z-index: 400;
+}
+
+.logo{
+    margin-left: 44px;
+}
+.logo img {
+  height: 75px;
+  width: 75px;
+}
+#menuPanel{
+    background-color: transparent;
+    box-shadow: none;
+}
+.ui-btn{
+    color: black !important;
+}
+
+.ui-btn-icon-right:after{
+    content: none;
+}
+/* main page css */
+main{
+    margin-top: 110px;
+    padding: 0 25px;
+    text-align: center;
+    margin-bottom: 98px;
+}
+.title{
+    color: #3B9A8F;
+}
+.bold,.text{
+    padding: 10px 0;
+}
+/* webinar page css */
+.heading{
+    padding: 20px 0;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.card{
+    border: 1px solid gray;
+    margin: 15px 0;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+.card img{
+    border-radius: 15px 15px 0 0;
+}
+.color{
+    text-align: left;
+    padding: 10px 10px;
+    color: #3B9A8F;
+}
+.i-links:hover,.icons a:hover{
+    
+    border-bottom: 2px solid #3B9A8F;
+    
+}
+.i-links{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.icons a p:active{
+    color: #3B9A8F;
+    border-bottom: 2px solid #3B9A8F;
+}
+
+.enroll{
+    background-color: #3B9A8F !important;
+    color: white !important;
+    width: 70% !important;
+    margin: 0 auto;
+}
+/* partnr and programs css */
+.partner{
+    display: flex;
+}
+.partner div img{
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+}
+/* Table css */
+table{
+    border-collapse: collapse;
+    text-shadow: none;
+    border: 2px solid #3B9A8F;
+    padding: 10px;
+    
+}
+tr{
+    padding: 10px 0;
+}
+.ground{
+    background-color: #3B9A8F;
+}
+.error {
+    color: red;
+}
+.ui-mobile label{
+    text-align: left;
+    font-weight: bold;
+}
+.ui-page-theme-a .ui-focus{
+    box-shadow: 0 0 12px  #3B9A8F ;
+}
+/* footer css start */
+footer{
+    width: 100%;
+    position: fixed;
+ bottom: 0px;
+ z-index: 9999;
+}
+.hidden {
+    display: none;
+}
+/* back to top */
+.back-to-top {
+    position: fixed;
+    bottom: 150px;
+    right: 20px;
+    font-size: 24px;
+    color: #333;
+    background-color: #212020;
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    z-index: 999;
+}
+.back-to-top:hover {
+    background-color: #333;
+    color: #fff;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px;
+    text-align: center;
+    background-color: #000000;
+    border-top: 4px solid #3B9A8F;
+    font-size: small;
+}
